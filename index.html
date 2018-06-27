@@ -22,19 +22,7 @@
 
     <!-- Firebase Reference -->
 
-    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js">
-
-        var config = {
-            apiKey: "AIzaSyA0Nr6YgKnjUvDsltmDyxs2lnaYac35EIo",
-            authDomain: "train-scheduler-57d67.firebaseapp.com",
-            databaseURL: "https://train-scheduler-57d67.firebaseio.com",
-            projectId: "train-scheduler-57d67",
-            storageBucket: "",
-            messagingSenderId: "845122066171"
-        };
-        firebase.initializeApp(config);
-
-    </script>
+    <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
 
 
     <!-- Moment.js Reference -->
@@ -51,19 +39,19 @@
 
         <!-- Jumbotron -->
 
-        <div class="jumbotron" style="background-color: #7F462C; color: white">
+        <div class="jumbotron" style="background-color: orangered; color: white">
             <h1 class="text-center">Anytime is Train Time</h1>
             <h3 class="text-center">Choo Choo. Chee Chee.</h3>
         </div>
 
         <div class="row">
 
-            <div class="col-lg-12">
+            <div class="col-lg-12"> 
 
                 <!-- Train Schedule -->
 
                 <div class="panel panel-primary">
-                    <div class="panel-heading">
+                    <div class="panel-heading" style="background-color: orangered">
                         <h3 class="panel-title">
                             <strong>Current Train Schedule</strong>
                         </h3>
@@ -90,7 +78,7 @@
                 <!-- Add Train  -->
 
                 <div class="panel panel-primary">
-                    <div class="panel-heading">
+                    <div class="panel-heading" style="background-color: orangered">
                         <h3 class="panel-title">
                             <strong>Add Train</strong>
                         </h3>
@@ -116,7 +104,7 @@
                                 <label for="frequency-input">Frequency (min)</label>
                                 <input type="text" class="form-control" id="frequency-input">
                             </div>
-                            <button type="submit" class="btn btn-primary" id="add-train-btn">Submit</button>
+                            <button type="submit" class="btn btn-primary" id="add-train-btn">Submit</button> 
                         </form>
 
                     </div>
@@ -130,7 +118,7 @@
     </div>
 
     <!-- Script -->
-    <script src="traintime-logic.js"></script>
+    <script src="logic.js"></script>
 
 </body>
 
